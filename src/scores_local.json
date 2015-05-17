@@ -1,0 +1,31 @@
+{
+    "games": [
+        {
+            "Joueur A": "Alex", 
+            "Joueur B": "Tom", 
+            "but A": 0, 
+            "but B": 2, 
+            "date": 1431771118.347, 
+            "duree": "timedelta(seconds='25.768')", 
+            "id": 1, 
+            "points": -2
+        }, 
+        {
+            "Joueur A": "AA", 
+            "Joueur B": "TT", 
+            "but A": 2, 
+            "but B": 0, 
+            "date": 1431771195.902, 
+            "duree": "timedelta(seconds='38.437')", 
+            "id": 2, 
+            "points": 2
+        }
+    ], 
+    "stats": [
+        {
+            "games tot": 2, 
+            "points tot": 0, 
+            "time tot": "timedelta(seconds='64.205')"
+        }
+    ]
+}

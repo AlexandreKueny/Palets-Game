@@ -1,0 +1,12 @@
+{
+    "screen": {
+        "screen_size_x": 1024, 
+        "screen_size_y": 768
+    }, 
+    "sounds": {
+        "music": {
+            "volume": 1, 
+            "state": false
+        }
+    }
+}
