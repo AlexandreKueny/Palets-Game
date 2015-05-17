@@ -1,8 +1,6 @@
-﻿/* Définition des polices personnalisées */
-
-@font-face
+﻿@font-face
 {
-    font-family: 'BallparkWeiner';
+    font-family: 'BallparkWeiner'; /* Police */
     src: url('polices/ballpark.eot');
     src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
          url('polices/ballpark.woff') format('woff'),
@@ -14,7 +12,7 @@
 
 @font-face
 {
-    font-family: 'Dayrom';
+    font-family: 'Dayrom'; /* Police */
     src: url('polices/dayrom.eot');
     src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
          url('polices/dayrom.woff') format('woff'),
@@ -24,12 +22,10 @@
     font-style: normal;
 }
 
-/* Eléments principaux de la page */
-
 body
 {
-    background: url('images/bg.jpg');
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: url('images/bg.jpg'); /* on charge le fond */
+    font-family: 'Trebuchet MS', Arial, sans-serif; /* On applique la police pour tout body */
     color: #181818;
 }
 
@@ -43,7 +39,7 @@ section h1, nav a
 {
     font-family: Arial, serif;
     font-weight: normal;
-    text-transform: uppercase;
+    text-transform: uppercase; /* auto maj */
 }
 
 /* Header */
@@ -55,12 +51,12 @@ header
 
 #titre_principal
 {
-    display: inline-block;
+    display: inline-block; /* condition pour placer les blocs */
 }
 
 header h1
 {
-    font-family: 'BallparkWeiner', serif;
+    font-family: 'BallparkWeiner', serif; /* Taille des titres H1 pour la partie header */
     font-size: 2.5em;
     font-weight: normal;
 }
@@ -68,7 +64,7 @@ header h1
 #logo, header h1
 {
     display: inline-block;
-    margin-bottom: 0px;
+    margin-bottom: 0px; /* On enlève les marges du bas */
 }
 
 header h2
@@ -142,7 +138,7 @@ nav a:hover
     height: 33px;
     padding-top: 15px;
     padding-left: 4px;
-    background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+    background-color: rgb(24,24,24);
     background-color: rgba(24,24,24,0.8);
     color: white;
     font-size: 0.8em;
@@ -216,12 +212,12 @@ aside
     left: -12px;
 }
 
-#photo_zozor
+#images/tux.jpg
 {
     text-align: center;
 }
 
-#photo_zozor img
+#images/tux.jpg img
 {
     border: 1px solid #181818;
 }
